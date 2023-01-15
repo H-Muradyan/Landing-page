@@ -1,0 +1,51 @@
+.container {
+  max-width: 1920px;
+  margin: auto;
+  padding: 0 8px;
+}
+.container .title {
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 52px;
+  letter-spacing: 0.007em;
+  color: #ffffff;
+  margin-top: 127px;
+  text-align: center;
+}
+.container .cardsContainer {
+  margin-top: 32px;
+
+}
+
+.benefit{
+  width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 0x 96px;
+  }
+  .container .cardsContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 0 192px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .container {
+    padding: 0 300px;
+  }
+}

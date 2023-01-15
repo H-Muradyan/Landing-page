@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+  max-width: 1920px;
+  margin: auto;
+  margin-top: 19px;
+}
+
+.container .text {
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .text .title {
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 69px;
+  letter-spacing: 0.007em;
+}
+
+.container .text .title span {
+  color: #ffc759;
+}
+
+.container .text .description {
+  width: 247px;
+  margin-top: 20px;
+  margin-bottom: 56px;
+  letter-spacing: 0.007em;
+}
+
+.container .text .duration {
+  display: flex;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  margin-top: 34px;
+  margin-bottom: 64px;
+  gap: 17px;
+}
+
+
+.container .text .rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.container .text .rating .ratingStars {
+  display: flex;
+  padding: 6px 3px;
+  background: #fdc600;
+  border-radius: 2.68009px;
+}
+
+.container .text .rating p {
+  letter-spacing: 0.005em;
+}
+
+.container .text .apps {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 0 96px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .container .text {
+    color: #ffffff;
+    display: block;
+    text-align: start;
+  }
+  .container .text .rating {
+    justify-content: start;
+  }
+  .container .text .apps {
+    justify-content: start;
+  }
+  .container .heroImg{
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 0 192px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .container {
+    padding: 0 300px;
+  }
+  .container .heroImg{
+    width: 100%;
+  }
+}

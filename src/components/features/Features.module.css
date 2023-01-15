@@ -1,0 +1,136 @@
+.container {
+  max-width: 1920px;
+  margin: auto;
+  padding: 0 8px;
+}
+
+.container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 52px;
+  letter-spacing: 0.007em;
+  margin-bottom: 80px;
+  
+}
+
+.container .title h2 {
+  color: #ffffff;
+}
+
+.container .title i {
+  color: #ffc759;
+}
+
+.sidebar {
+  background: linear-gradient(147.19deg, #362a87 -2.99%, #2c2747 82.25%, #4323f1 157.46%);
+  border-radius: 26px;
+  max-width: 1920px;
+  padding: 0 85px;
+  padding-bottom: 130px;
+  min-height: 813px;
+  overflow: hidden;
+
+}
+
+.sidebar p {
+  padding-bottom: 37px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.007em;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 73px;
+  gap: 5px;
+}
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 21px;
+}
+
+.timeContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 79px;
+}
+
+.timeText {
+  color: #ffffff;
+  min-width: 335px;
+}
+
+.timeText h2 {
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 52px;
+  letter-spacing: 0.007em;
+}
+
+.timeText ul {
+  margin-top: 30px;
+  margin-bottom: 55px;
+  padding: 0;
+}
+
+.timeText .list {
+  display: flex;
+  list-style-type: none;
+  gap: 18px;
+  margin-bottom: 16px;
+}
+
+.timeContainer .timeImg {
+  width: 50%;
+  margin-top: 30px;
+}
+
+h1 {
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 0 96px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 0 192px;
+  }
+
+}
+
+@media screen and (min-width: 1536px) {
+  .container {
+    padding: 0 300px;
+  }
+  .timeContainer {
+    flex-direction: row;
+    align-items: center;
+  }
+  .timeContainer .timeImg {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .timeText {
+    min-width: 350px;
+  }
+}

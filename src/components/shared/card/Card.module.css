@@ -1,0 +1,87 @@
+.container {
+  padding: 81px 73px 0 0;
+  position: relative;
+  max-width: 610px;
+  margin: auto;
+}
+.container .textContainer {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(141, 159, 244, 0.3);
+  backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  padding-top: 53px;
+  padding-bottom: 63px;
+  position: relative;
+}
+
+.container .circle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer .title {
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 52px;
+  letter-spacing: 0.007em;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.textContainer .box {
+  position: absolute;
+  top: 130px;
+  left: 73px;
+}
+.textContainer .previousPrice {
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 58px;
+  letter-spacing: 0.007em;
+}
+.textContainer .line {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  border: 2px solid #f354b4;
+  transform: matrix(0.96, -0.27, -0.27, -0.96, 0, 0);
+  border-radius: 5px;
+  background: #f354b4;
+}
+
+.textContainer .price {
+  font-weight: 700;
+  font-size: 80px;
+  letter-spacing: 0.007em;
+  margin-top: 20px;
+}
+
+.textContainer .time {
+  font-weight: 600;
+  font-size: 28px;
+  letter-spacing: 0.007em;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 9px;
+}
+.textContainer ul {
+  margin-bottom: 49px;
+}
+
+.textContainer .benefit {
+  display: flex;
+  list-style-type: none;
+  gap: 18px;
+}
+
+.textContainer .benefit li {
+  width: 85px;
+}
+

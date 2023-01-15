@@ -1,0 +1,50 @@
+.container {
+  max-width: 1920px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 180px auto;
+}
+
+.container .title {
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 42px;
+  letter-spacing: 0.007em;
+  color: #ffffff;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.container .companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 96px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 0 167px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 0 267px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .container {
+    padding: 0 379px;
+  }
+}
